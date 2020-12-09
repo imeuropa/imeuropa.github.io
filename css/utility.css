@@ -1,0 +1,133 @@
+.my-2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.my-6 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.my-8 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.py-1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.py-2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.py-4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.py-6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.py-8 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.m-1 {
+    margin: 10px;
+}
+
+.m-2 {
+    margin: 20px;
+}
+
+.mx-2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-right::after {
+    clear: both;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.clear-both::after {
+    clear: both;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.text-centre {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .sm-float-none {
+        float: none;
+    }
+}
+
+.red {
+    color: red !important;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media only screen and (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
